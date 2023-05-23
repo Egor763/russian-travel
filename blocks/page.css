@@ -12,5 +12,9 @@
 }
 
 .page__intro {
-  margin: 102px 0 92px 142px;
+  margin: 90px 0 76px 190px;
+}
+
+.page__footer {
+  margin-top: 78px;
 }

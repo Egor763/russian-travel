@@ -41,7 +41,7 @@
   font-weight: 900;
   width: 510px;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 0 0 32px;
 }
 
 .cover__subtitle {
@@ -50,4 +50,5 @@
   font-weight: 400;
   width: 360px;
   text-align: center;
+  margin: 0;
 }

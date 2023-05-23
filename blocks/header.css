@@ -11,10 +11,11 @@
 }
 
 .header__links {
-  width: 85px;
+  width: 78px;
   display: flex;
   list-style: none;
   padding: 0;
+  margin-top: 20px;
 }
 
 .header__item {
