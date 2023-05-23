@@ -4,7 +4,6 @@
 }
 
 .intro__title {
-  border: 1px solid yellow;
   width: 100%;
   margin-bottom: 40px;
   line-height: 58px;
@@ -13,7 +12,6 @@
 }
 
 .intro__text {
-  border: 1px solid yellow;
   width: 100%;
   margin-bottom: 33px;
   line-height: 26px;
@@ -22,25 +20,18 @@
 }
 
 .intro__list {
-  border: 1px solid yellow;
   width: 100%;
   list-style: none;
   padding: 0;
 }
 
-.intro__list-item {
-  border: 1px solid yellow;
-}
-
 .intro__list-text {
-  border: 1px solid yellow;
   line-height: 18px;
   font-size: 12px;
   font-weight: 700;
 }
 
 .intro__list-number {
-  border: 1px solid yellow;
   line-height: 18px;
   font-size: 12px;
   font-weight: 400;
