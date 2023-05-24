@@ -24,4 +24,8 @@
   .lead__image {
     width: 100%;
   }
+
+  .lead__caption {
+    margin-left: 24px;
+  }
 }

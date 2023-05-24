@@ -15,7 +15,10 @@
     max-width: 720px;
   }
 
-  .photos__container {
+  .photos__containter {
+    margin-bottom: 104px;
     grid-template-columns: repeat(2, minmax(150px, 352px));
+    grid-template-rows: repeat(6, 264px);
+    gap: 16px;
   }
 }

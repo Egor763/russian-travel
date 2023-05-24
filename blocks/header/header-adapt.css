@@ -8,4 +8,8 @@
   .header {
     max-width: 720px;
   }
+
+  .header__logo {
+    margin: 0;
+  }
 }
