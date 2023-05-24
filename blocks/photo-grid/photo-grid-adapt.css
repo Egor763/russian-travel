@@ -22,3 +22,16 @@
     gap: 16px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .photos {
+    max-width: 288px;
+  }
+
+  .photos__containter {
+    grid-template-columns: repeat(1, minmax(150px, 288px));
+    grid-template-rows: repeat(12, 216px);
+    gap: 12px;
+    margin-bottom: 64px;
+  }
+}

@@ -13,3 +13,23 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .header {
+    max-width: 288px;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__links {
+    margin: 14px 16px 0 85px;
+  }
+
+  .header__link {
+    line-height: 20px;
+    font-size: 18px;
+  }
+}

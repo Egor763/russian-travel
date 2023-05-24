@@ -29,3 +29,27 @@
     margin-left: 24px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .lead {
+    max-width: 320px;
+  }
+
+  .lead__title {
+    width: 288px;
+    margin: 48px 0 16px;
+    line-height: 44px;
+    font-size: 40px;
+  }
+
+  .lead__subtitle {
+    line-height: 20px;
+    font-size: 16px;
+    width: 288px;
+    margin-bottom: 40px;
+  }
+
+  .lead__caption {
+    margin-left: 16px;
+  }
+}

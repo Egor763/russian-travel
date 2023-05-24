@@ -9,4 +9,21 @@
   .intro {
     max-width: 720px;
   }
+
+  @media screen and (max-width: 700px) {
+    .intro {
+      max-width: 288px;
+    }
+
+    .intro__title {
+      width: 245px;
+      line-height: 35px;
+      font-size: 32px;
+    }
+
+    .intro__text {
+      line-height: 26px;
+      font-size: 16px;
+    }
+  }
 }

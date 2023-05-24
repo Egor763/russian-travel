@@ -23,3 +23,25 @@
     min-height: 480px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .cover {
+    max-width: 320px;
+  }
+
+  .cover__item {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .cover__title {
+    line-height: 35px;
+    font-size: 32px;
+    width: 230px;
+  }
+
+  .cover__subtitle {
+    line-height: 16px;
+    font-size: 14px;
+  }
+}

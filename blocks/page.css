@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}
+
 .page__intro {
   margin: 90px 0 76px 190px;
 }
@@ -30,6 +36,12 @@
 @media screen and (max-width: 800px) {
   .page__intro {
     margin: 88px 24px 71px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .page__intro {
+    margin: 64px 16px 48px;
   }
 }
 
