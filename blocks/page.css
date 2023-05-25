@@ -1,3 +1,7 @@
+.root {
+  background-color: #2a2c2f;
+}
+
 .page {
   font-family: 'Inter', Arial, sans-serif;
   display: flex;
@@ -6,7 +10,7 @@
   padding: 28px 48px 24px;
   margin: 0 auto;
   background-color: #2a2c2f;
-  min-width: 320px;
+  /* min-width: 320px; */
   max-width: 1280px;
   color: white;
 }
@@ -20,6 +24,8 @@
 @media screen and (max-width: 700px) {
   .page {
     padding: 16px 0 24px;
+    max-width: 320px;
+    overflow: hidden;
   }
 }
 
