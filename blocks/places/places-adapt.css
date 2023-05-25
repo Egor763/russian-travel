@@ -54,8 +54,8 @@
     max-width: 320px;
   }
 
-  .places__container {
-    margin: 0 0 74px;
+  .places__containter {
+    margin-bottom: 66px;
   }
 
   .places__item {
@@ -78,5 +78,6 @@
 
   .places__paragraph {
     margin-left: 16px;
+    width: 288px;
   }
 }
